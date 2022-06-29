@@ -1,0 +1,109 @@
+body{
+    width: 100%;
+    margin: 0%;
+    
+}
+.bg{
+    position: absolute;
+    bottom: 10%;
+    width: 70%;
+    opacity: 0.8;
+    padding: 0.01em 16px;
+    margin: 0px;
+    background-color: #ffc107!important;
+    
+}
+.grandparents{
+padding: 4px 16px;
+}
+
+.Part1{
+    position: relative;
+    width: 100%;
+}
+p{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    width: 100%;
+    box-sizing: initial;
+    margin: 20px 0px;
+}
+.bg:hover{
+    color: black;
+    background-color: #ffc107!important;
+    opacity: 0.7;
+    width: 70%;
+
+}
+.part3{
+    border: #ff9800;
+    margin: 0%;
+    padding: 10px;
+    
+}
+.Main1{     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    width: 100%;
+    margin-top: 02%;
+}
+.child1{
+    width:48%;
+    margin-right: 25px;"
+}
+.top{
+    
+    border-top: 6px solid orange;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.main2{
+    color: black;
+display: flex;
+justify-content: center;
+/* align-items: center; */
+width: 100%;
+padding-left: 00%;
+margin-top: 03%;
+}
+
+.top2{
+    
+    border-top: 6px solid orange;
+    width: 100%;
+    justify-content: space-between;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;    
+    font-size: 50;
+}
+.one{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 30px;
+}
+.font
+{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+.anchor{
+    font-size: 500px;
+    width: 500%;
+    color: red;
+}
+@media only  screen  and (max-width:600px) {
+    
+    .bg{display: none;}
+    .Main1, .main2{flex-direction: column;
+ }
+    .child1{width: 100%;
+    margin-right: 0px;
+    }
+    .Part1{max-width: auto;}
+}
